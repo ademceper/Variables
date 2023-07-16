@@ -1,4 +1,6 @@
-﻿string isimSoyisim = "Adem ÇEPER"; // Değişken Tanımlama Örneği
+﻿using System.Globalization;
+
+string isimSoyisim = "Adem ÇEPER"; // Değişken Tanımlama Örneği
 Console.WriteLine(isimSoyisim);   //Konsola Çıktı Örneği
 
 string isim;                         //İkinci tanımlama yönetimi
@@ -7,6 +9,8 @@ Console.WriteLine(isim);
 
 
 //STRİNG
+
+
 string deneme = "Adem ÇEPER";       //string değişkene değer atıyoruz
 Console.WriteLine(deneme);
 
@@ -18,4 +22,18 @@ Console.WriteLine(buyukKarakter);
 
 string kucukKarakter = deneme.ToLower();       //Karakterleri küçültmek için kullanılan metod
 Console.WriteLine(kucukKarakter);
+
+
+//CHAR
+
+
+string secimstring = "A";                                // Her iki kullanımda geçerlidir 
+char secimchar = 'A';                                 // char bellek yönetimi için daha iyi bir seçimdir
+
+Console.WriteLine(secimstring);
+Console.WriteLine(secimchar);
+
+
+//int
+
 
