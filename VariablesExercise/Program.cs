@@ -1,0 +1,16 @@
+﻿Console.WriteLine("Merhaba");
+Console.Write("Adınız :");
+string ad = Console.ReadLine();
+Console.Write("Soyadınız :");
+string soyad = Console.ReadLine();
+Console.Write("Yaşınız :");
+int yas = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+Console.WriteLine(ad + " " + soyad);
+Console.WriteLine(yas);
+char a = 'a';
+decimal b = a;
+Console.WriteLine(b);
+int i = 512;
+byte c = (byte)i;
+Console.WriteLine(c);
